@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Play Online | Trueself Digital</title>
+    <meta name="description" content="Play Monster Survivors online for free! Dive into an action-packed survival game where you face endless hordes of monsters. Upgrade your skills and see how long you can last on trueself.digital.">
+    <link rel="canonical" href="https://trueself.digital/" />
+
+    <!-- Favicon (optional, but good for branding) -->
+    <!-- <link rel="icon" href="/favicon.ico" sizes="any"> -->
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'apple-gray': {
+              light: '#f5f5f7', // Light background
+              medium: '#d2d2d7', // Borders, subtle text
+              dark: '#1d1d1f',  // Main text
+              text: '#333333', // Slightly softer text
+            },
+            'apple-blue': '#007aff', // Accent color
+          },
+          fontFamily: {
+            // Using system fonts for Apple-like feel
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+          }
+        }
+      }
+    }
+    </script>
+    <style>
+        /* Custom styles for better iframe responsiveness and look */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body class="bg-apple-gray-light text-apple-gray-dark">
+
+    <div class="container mx-auto px-4 py-8 md:py-12 max-w-5xl">
+
+        <header class="text-center mb-8 md:mb-12">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-apple-gray-dark leading-tight">
+                Monster Survivors
+            </h1>
+            <p class="mt-3 text-lg sm:text-xl text-apple-gray-text/80">
+                Outlast the horde in this thrilling online survival adventure!
+            </p>
+        </header>
+
+        <main>
+            <section id="game-embed" aria-labelledby="game-embed-title" class="mb-10 md:mb-16">
+                <h2 id="game-embed-title" class="sr-only">Play Monster Survivors Game</h2> <!-- Screen reader only title -->
+                <div class="iframe-container max-w-4xl mx-auto bg-black shadow-2xl rounded-lg">
+                    <iframe
+                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                        title="Monster Survivors Online Game"
+                        allowfullscreen
+                        loading="lazy">
+                        Your browser does not support iframes. Please update your browser to play Monster Survivors.
+                    </iframe>
+                </div>
+            </section>
+
+            <section id="game-overview" aria-labelledby="game-overview-title" class="space-y-6 text-apple-gray-text/90">
+                <h2 id="game-overview-title" class="text-2xl md:text-3xl font-semibold text-apple-gray-dark mb-4">
+                    Game Overview
+                </h2>
+                <p class="text-base md:text-lg leading-relaxed">
+                    Welcome to <strong class="font-medium">Monster Survivors</strong>, an electrifying online game where your primary objective is to withstand relentless waves of diverse and challenging monsters. As you courageously defeat enemies, you'll accumulate experience points, allowing you to level up and unlock a wide array of powerful new abilities and strategic upgrades.
+                </p>
+                <p class="text-base md:text-lg leading-relaxed">
+                    Your choices are crucial: select your enhancements wisely to craft a unique character build capable of enduring the ever-increasing onslaught. How long can you survive the chaos?
+                </p>
+
+                <h2 class="text-xl md:text-2xl font-semibold text-apple-gray-dark pt-4">
+                    Key Features
+                </h2>
+                <ul class="list-disc list-inside space-y-2 text-base md:text-lg leading-relaxed pl-4">
+                    <li><strong>Intense Survival Gameplay:</strong> Experience adrenaline-pumping action as you fend off endless hordes.</li>
+                    <li><strong>Dynamic Upgrades:</strong> Unlock and choose from a vast selection of skills and passive buffs with each level-up.</li>
+                    <li><strong>Strategic Depth:</strong> Every upgrade choice impacts your build and survival strategy.</li>
+                    <li><strong>Responsive Controls:</strong> Enjoy seamless gameplay optimized for both PC (mouse/keyboard) and mobile (touch).</li>
+                    <li><strong>Challenging Enemies:</strong> Face a variety of monsters, each with unique behaviors and attack patterns.</li>
+                    <li><strong>Instant Play:</strong> No downloads needed, jump right into the action in your browser.</li>
+                </ul>
+
+                <h2 class="text-xl md:text-2xl font-semibold text-apple-gray-dark pt-4">
+                    How to Play
+                </h2>
+                <p class="text-base md:text-lg leading-relaxed">
+                    Navigating your hero is simple:
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-base md:text-lg leading-relaxed pl-4">
+                    <li><strong>Movement:</strong> Use your mouse (on PC) or touch-drag (on mobile devices) to move your character around the map.</li>
+                    <li><strong>Combat:</strong> Your character will automatically target and attack the nearest enemies within range.</li>
+                    <li><strong>Progression:</strong> Defeat monsters to collect experience gems they drop. Filling your experience bar will grant you a level-up.</li>
+                    <li><strong>Upgrading:</strong> Upon leveling up, you'll be presented with a choice of several random skills or upgrades. Select the one that best suits your strategy to become more powerful.</li>
+                    <li><strong>Survival:</strong> The main goal is to survive as long as possible against increasingly difficult waves of monsters. Dodge enemy attacks and projectiles while maximizing your damage output.</li>
+                </ul>
+                <p class="text-base md:text-lg leading-relaxed mt-4">
+                    Good luck, survivor! Your legend awaits in <strong class="font-medium">Monster Survivors</strong>.
+                </p>
+            </section>
+        </main>
+
+        <footer class="text-center mt-12 md:mt-16 pt-8 border-t border-apple-gray-medium">
+            <p class="text-sm text-apple-gray-text/70">
+                &copy; <script>document.write(new Date().getFullYear())</script> Trueself Digital. All Rights Reserved.
+            </p>
+            <p class="text-xs text-apple-gray-text/60 mt-1">
+                Play Monster Survivors and discover more exciting games at trueself.digital.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
