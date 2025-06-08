@@ -34,6 +34,18 @@
       }
     }
     </script>
+
+    <!-- Google tag (gtag.js) - Moved AFTER Tailwind to test -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-75HPHK3X1T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-75HPHK3X1T');
+    </script>
+    <!-- End Google tag -->
+
     <style>
         /* Custom styles for better iframe responsiveness and look */
         body {
@@ -130,7 +142,7 @@
 
         <footer class="text-center mt-12 md:mt-16 pt-8 border-t border-apple-gray-medium">
             <p class="text-sm text-apple-gray-text/70">
-                &copy; <script>document.write(new Date().getFullYear())</script> Trueself Digital. All Rights Reserved.
+                © <script>document.write(new Date().getFullYear())</script> Trueself Digital. All Rights Reserved.
             </p>
             <p class="text-xs text-apple-gray-text/60 mt-1">
                 Play Monster Survivors and discover more exciting games at trueself.digital.
